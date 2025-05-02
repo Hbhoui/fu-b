@@ -3,27 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>For You ❤️</title>
+  <title>For Adam 💙</title>
   <style>
     body {
       margin: 0;
       overflow: hidden;
-      background-color: #fff0f5;
+      background-color: #001f3f; /* Navy blue */
       font-family: sans-serif;
+      color: white;
+      text-align: center;
     }
 
     h1 {
-      text-align: center;
       margin-top: 60px;
       font-size: 2.5em;
-      color: #ff3366;
+      z-index: 2;
+      position: relative;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 1em;
+      opacity: 0.8;
       z-index: 2;
       position: relative;
     }
 
     .heart {
       position: absolute;
-      opacity: 0.8;
+      opacity: 0.9;
       animation: floatAround 6s linear infinite;
       z-index: 1;
     }
@@ -45,6 +53,7 @@
 </head>
 <body>
   <h1>I really like you Adam :)</h1>
+  <p>(here are 22 hearts for you)</p>
 
   <script>
     const totalHearts = 22;
